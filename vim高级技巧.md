@@ -35,7 +35,7 @@ G: go to end of the file，移动到文件末尾最后一行
 ```
 
 
-#### c
+#### c命令详解
 c 命令所删除的数据都存在缓冲区, 可以结合p/P命令构成剪切粘贴操作, 方法是:先进行 c 命令, 再按 Esc 键返回命令模式, 最后才进行 p/P 命令.
 删除--->剪切---->进入插入模式
 ```
@@ -63,6 +63,9 @@ cnG and cG
 cG 表示修改当前行直至末行.
 ```
 
+## 使用shell命令
+1. `:!command`
+不退出vim，并执行shell命令command，将命令输出显示在vim的命令区域，不会改变当前编辑的文件的内容
 
 ## 参考文章
 1. [提升效率的若干vim技巧](http://www.dutor.net/index.php/2011/09/efficient-vim-tips/)
