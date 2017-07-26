@@ -1,7 +1,7 @@
 [TOC]
 ## 一、方法、函数、过程
 
-![](assets/markdown-img-paste-20170506170450895.png)
+![](../assets/markdown-img-paste-20170506170450895.png)
 
 ### 1. 方法
 
